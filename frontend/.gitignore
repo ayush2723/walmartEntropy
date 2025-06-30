@@ -1,5 +1,5 @@
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -13,8 +13,8 @@ dist/
 dist-ssr/
 *.local
 
-# Editor directories and files
-.vscode/*
+# Editor settings
+.vscode/
 !.vscode/extensions.json
 .idea/
 .DS_Store
@@ -24,27 +24,39 @@ dist-ssr/
 *.sln
 *.sw?
 
-# Environment variables
+# Env variables
 .env
+.env.*
 
-# Python
+# Python cache and compiled files
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.pyc
 *.pkl
+*.joblib
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Virtual environment
+# Virtual environments (key fix!)
 venv/
 env/
 ENV/
 .venv/
 .ENV/
+**/venv/
+**/.venv/
+**/env/
+**/ENV/
 
-# System-specific
+# OS-specific
 Thumbs.db
 ehthumbs.db
+
+# Mac files
+*.DS_Store
+
+# VS Code python environments
+.python-version
