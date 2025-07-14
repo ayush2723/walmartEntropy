@@ -1,8 +1,8 @@
-# SmartWaste AI Backend
+# Walmart AI Backend
 
 ## 🧠 Overview
 
-The SmartWaste AI Backend is a comprehensive machine learning system designed to predict product waste and recommend corrective actions for retail inventory management. This system helps retailers reduce waste, optimize inventory, and maximize revenue through intelligent predictions and actionable recommendations.
+The Walmart AI Backend is a comprehensive machine learning system designed to predict product waste and recommend corrective actions for retail inventory management. This system helps retailers reduce waste, optimize inventory, and maximize revenue through intelligent predictions and actionable recommendations.
 
 ## ✨ Key Features
 
@@ -35,7 +35,7 @@ The SmartWaste AI Backend is a comprehensive machine learning system designed to
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd smartwaste-backend
+   cd backend
    ```
 
 2. **Install dependencies**
