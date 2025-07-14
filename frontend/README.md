@@ -61,7 +61,7 @@ A comprehensive ecommerce platform for Walmart featuring AI-powered waste reduct
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd walmart-smartwaste-platform
+   cd frontend
    ```
 
 2. **Install dependencies**
@@ -76,12 +76,6 @@ A comprehensive ecommerce platform for Walmart featuring AI-powered waste reduct
 
 4. **Open your browser**
    Navigate to `http://localhost:5173`
-
-### Building for Production
-```bash
-npm run build
-npm run preview
-```
 
 ## 📱 Application Structure
 
@@ -176,12 +170,6 @@ Modify `src/data/mockData.ts` to customize:
 - Prediction algorithms
 - Analytics data
 
-## 🚀 Deployment
-
-### Production Build
-```bash
-npm run build
-```
 
 ### Environment Variables
 Configure for production deployment:
@@ -210,11 +198,3 @@ Configure for production deployment:
 
 **Built with ❤️ for sustainable retail and community impact**
 
-## 🔮 Future Enhancements
-
-- **Machine Learning Integration**: Real ML models replacing mock predictions
-- **IoT Sensor Data**: Temperature and humidity monitoring for perishables
-- **Blockchain Tracking**: Supply chain transparency and donation verification
-- **Mobile App**: Native iOS and Android applications
-- **Voice Assistant**: Integration with Alexa and Google Assistant
-- **Augmented Reality**: AR product visualization and shopping assistance
